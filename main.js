@@ -6,13 +6,12 @@ let XPTotal = 0
 let rankDoHeroi = ""
 
 let botaoLutar = document.querySelector(".monsterbutton")
-// let nivelMax = false
 botaoLutar.addEventListener("click", function (){
    
     quantidadeDeXPGanha = Math.floor(Math.random() * (max - min + 1)) + min;
     XPTotal = XPTotal + quantidadeDeXPGanha
         
-    let mensagemDeXP = "Você ganhou " + quantidadeDeXPGanha + " de XP."
+    let mensagemDeXP = "Você ganhou " + quantidadeDeXPGanha + " de XP, totalizando " + XPTotal + " de XP."
   
     if (XPTotal <= 1000) {
       rankDoHeroi = "Ferro"
