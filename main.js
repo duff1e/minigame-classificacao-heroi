@@ -8,8 +8,7 @@ let rankDoHeroi = ""
 let botaoLutar = document.querySelector(".monsterbutton")
 // let nivelMax = false
 botaoLutar.addEventListener("click", function (){
-  while (rankDoHeroi != "Radiante") {
-    
+   
     quantidadeDeXPGanha = Math.floor(Math.random() * (max - min + 1)) + min;
     XPTotal = XPTotal + quantidadeDeXPGanha
         
@@ -42,7 +41,5 @@ botaoLutar.addEventListener("click", function (){
       prompt(mensagemDeRank + "Parabéns! Você atingiu o nível máximo! Fim de jogo.")
     }
 
-    break
-  }
 })
 
