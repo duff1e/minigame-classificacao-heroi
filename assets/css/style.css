@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.box2 {
+  background-color: #1e2425;
+  font-family: "Oswald", sans-serif;
+  padding: 1rem;
+  min-width: 400px;
+  min-height: 300px;
+  text-align: center;
+}
+
+.title {
+  border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+  font-size: 2rem;
+  font-family: "BioRhyme", serif;
+  color: #cfcfcf;
+  text-align: center;
+
+}
+
+#img {
+  cursor: url("../img/Sword_Pixel_art_-_Radin.png"), auto;
+}
