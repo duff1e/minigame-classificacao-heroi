@@ -8,7 +8,7 @@ Seu objetivo era utilizar o conteúdo ensinado até então, como variáveis, est
 
 A linguagem de programação utilizada é o JavaScript, sendo ela o foco do Bootcamp, mas estruturei o projeto com HTML e CSS para rodá-lo em uma página web. 
 
-A primeira etapa do programa é perguntar em um input o nome de herói do usuário. Logo em seguida, a interface, que consiste em uma pequena caixa, apresenta um monstro que deverá ser clicado para que um cálculo de XP ocorra. Ao clicar, é gerado um número aleatório entre 200~600 e adicionado ao XP total, a partir disso o programa segue para a classificação do herói, mostrando na tela em um prompt com a quantidade de XP obtida com a luta e o rank atual do herói, obdecendo a seguinte lista de XP total:
+A primeira etapa do programa é perguntar em um input o nome de herói do usuário. Logo em seguida, a interface, que consiste em uma pequena caixa, apresenta a imagem de um monstro que deverá ser clicado para que um cálculo de XP ocorra. O cursor é alterado para um espada em pixel art quando o mouse está em cima do monstro. Ao clicar, é gerado um número aleatório entre 200~600 e adicionado ao XP total, a partir disso o programa segue para a classificação do herói, mostrando na tela, em um prompt, a quantidade de XP obtida com a luta e o rank atual do herói, obedecendo os critérios da seguinte lista de XP total:
 
 |   Rank   | Min | Max |
 |----------|-----|-----|
